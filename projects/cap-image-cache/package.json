@@ -1,6 +1,6 @@
 {
   "name": "cap-image-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy way to cache images with angular + capacitor",
   "keywords": [
     "angular",
