@@ -1,6 +1,25 @@
 {
   "name": "cap-image-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "description": "Easy way to cache images with angular + capacitor",
+  "keywords": [
+    "angular",
+    "capacitor",
+    "capacitorjs",
+    "ionic",
+    "cache",
+    "images"
+  ],
+  "author": "Ibrahim F <ibrahim_dev@icloud.com>",
+  "homepage": "https://github.com/brhoomjs/cap-image-cache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brhoomjs/cap-image-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brhoomjs/cap-image-cache/issues"
+  },
+  "license": "MIT",
   "peerDependencies": {
     "@angular/core": ">=13.0.0",
     "@capacitor/core": ">=3.3.2",

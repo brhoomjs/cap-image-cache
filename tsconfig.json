@@ -3,12 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "cap-image-cache": [
-        "dist/cap-image-cache/cap-image-cache",
-        "dist/cap-image-cache"
+      "main-cap-image-cache": [
+        "./dist/cap-image-cache/cap-image-cache",
+        "./dist/cap-image-cache"
       ]
     },
-    "baseUrl": "./",
+    "baseUrl": ".",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
