@@ -1,0 +1,9 @@
+{
+  "name": "cap-image-cache",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "@angular/core": ">=13.0.0",
+    "@capacitor/core": ">=3.3.2",
+    "@capacitor/filesystem": ">=1.0.6"
+  }
+}

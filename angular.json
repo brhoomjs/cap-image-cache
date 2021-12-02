@@ -1,0 +1,31 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "cap-image-cache": {
+      "projectType": "library",
+      "root": "projects/cap-image-cache",
+      "sourceRoot": "projects/cap-image-cache/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/cap-image-cache/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/cap-image-cache/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/cap-image-cache/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  },
+  "defaultProject": "cap-image-cache"
+}
