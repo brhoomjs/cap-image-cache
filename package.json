@@ -1,6 +1,6 @@
 {
   "name": "cap-image-cache-main",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy way to cache images with angular + capacitor",
   "keywords": [
     "angular",
@@ -23,12 +23,12 @@
     "ng": "ng",
     "build": "ng build"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
-    "tslib": "^2.3.0",
     "@angular/core": ">=13.0.0",
     "@capacitor/core": ">=3.3.2",
-    "@capacitor/filesystem": ">=1.0.6"
+    "@capacitor/filesystem": ">=1.0.6",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.0.4",

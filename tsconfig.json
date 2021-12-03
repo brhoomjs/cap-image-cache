@@ -3,10 +3,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "main-cap-image-cache": [
+      "cap-image-cache": [
         "dist/cap-image-cache/cap-image-cache",
         "dist/cap-image-cache"
-      ]
+      ],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -27,6 +27,9 @@
     "lib": [
       "es2020",
       "dom"
+    ],
+    "types": [
+      "jest"
     ]
   },
   "angularCompilerOptions": {
